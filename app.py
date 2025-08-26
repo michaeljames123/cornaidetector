@@ -15,7 +15,7 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 # Initialize Roboflow client
 client = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
-    api_key="E7uRkyk7iBtHqTqZEw6C"
+    api_key="ROBOFLOW_API_KEY"
 )
 
 @app.route("/predict", methods=["POST"])
